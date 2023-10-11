@@ -218,7 +218,7 @@ slide{
 info{
     display: flex;
     padding:  5% 0px;
-    background-color: green;
+    background-color: rgb(13, 73, 13);
 }
 info > div{
     width: 50%;
@@ -231,9 +231,94 @@ info > div:last-child{
 }
 
 info > div > section{
-    background-color: rgb(195, 245, 78);
+    background-color: rgb(254, 255, 248);
     width: 70%;
     flex-direction: column;
     justify-content: center;
     padding-left: 5%;
 }
+.nav_dos{
+    height: 90px;
+    display: flex;
+    background-color: rgb(226, 238, 64);
+}
+
+.nav_dos>div:first-child{
+    width: 70%;
+    justify-content: center;
+    display: flex;
+}
+.nav_dos > div:last-child{
+    width: 70%;
+}
+.menudos{
+    display: flex;
+}
+.menudos>li{
+    margin: 0px 20px;
+    list-style: none;
+}
+.menudos>li>a{
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 600ms;
+    border-bottom: 1px solid transparent;
+}
+.menudos>li>a:hover{
+    border-color: white;
+}
+
+.login{
+    display: flex;
+    background-color: rgb(11, 75, 11);
+   color: white;
+}
+
+
+article.login>div.informacion{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 12%;
+    padding-bottom: 10%;
+    
+}
+
+article.login>div.botones{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article.login>div.father{
+    display: flex;
+}
+
+div.father>img{
+    border-radius: 100px;
+}
+
+article.login>h5{
+margin: 0px;}
+
+article.login>div.botones>input{
+    border-radius: 100px;
+}
+article.login>div.botones>button{
+    border-radius: 150px;
+    width: 170px;
+    height: 20px;
+    background-color:white ;
+    color: black;
+    border-color: white;
+}
+
+
+    
+
+
+
